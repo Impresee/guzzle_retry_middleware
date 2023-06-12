@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "GuzzleRetry\\": "src"
+            "ImpreseeGuzzleRetry\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GuzzleRetry\\": "tests"
+            "ImpreseeGuzzleRetry\\": "tests"
         }
     },
     "scripts": {
