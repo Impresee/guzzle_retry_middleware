@@ -17,16 +17,16 @@
 
 declare(strict_types=1);
 
-namespace GuzzleRetry;
+namespace ImpreseeGuzzleRetry;
 
 use Closure;
 use DateTime;
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Exception\ConnectException;
+use ImpreseeGuzzleHttp\Exception\BadResponseException;
+use ImpreseeGuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Promise\Promise;
 use GuzzleHttp\Promise\PromiseInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Impresee\Psr\Http\Message\RequestInterface;
+use Impresee\Psr\Http\Message\ResponseInterface;
 use Throwable;
 
 use function call_user_func;
